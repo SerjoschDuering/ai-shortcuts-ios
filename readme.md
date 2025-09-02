@@ -6,7 +6,7 @@
 
 Transform photos into videos or edit them with AI all with just one tap from your iOS share menu. These Apple Shortcuts harness the power of Google's cutting-edge **Nano-Banana** (Gemini 2.5 Flash Image) and **Seed Dance Pro** models via Replicate's API to bring professional AI editing directly to your iPhone.
 
-## ( What This Does
+## What This Does
 
 Instead of juggling between apps or web interfaces, these shortcuts integrate seamlessly into your iPhone's native workflow. Select any photo, hit share, choose your AI workflow, and watch the magic happen results automatically save to your Photos library.
 
@@ -19,7 +19,7 @@ Instead of juggling between apps or web interfaces, these shortcuts integrate se
 - Uses Google's breakthrough image generation model
 - Perfect for creative photo manipulation and artistic edits
 
-**ee Dance Pro Video Generation** 
+**Seedance Pro Video Generation** 
 - Turn still photos into dynamic 5 second videos
 - Bring old memories to life with realistic motion
 - Create hilarious shorts
@@ -101,15 +101,11 @@ Each shortcut follows this pattern:
 4. **Output**: Automatic save to Photos library with metadata
 
 ### API Integration
-- **Nano-Banana**: `replicate/nano-banana` model for image generation
-- **Video Models**: Various video generation models via Replicate
+- **Nano-Banana**: `replicate/nano-banana` model for image generation via Replicate
+- **Video Models**: Seedance pro video generation model via Replicate
 - **Rate Limiting**: Built-in error handling and retry logic
 - **Cost Management**: Transparent usage tracking
 
-### Privacy & Security
-- All processing happens via secure API calls
-- No data stored on external servers beyond generation
-- Full control over when and what gets processed
 
 ## Getting Started
 
@@ -120,7 +116,7 @@ Ready to transform your photo editing workflow?
 3. **Install on iOS**: Open the files directly on your device
 4. **Start creating**: Select a photo, share, and choose your AI workflow
 
-*Note: These workflows use pay-per-use AI models. Costs are typically very low ($0.03-0.05 per generation) but can add up with heavy usage.*
+*Note: These workflows use pay-per-use AI models from replicate.com. Costs are typically very low ($0.03-0.05 per generation) but can add up with heavy usage.*
 
 ---
 

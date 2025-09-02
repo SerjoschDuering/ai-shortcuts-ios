@@ -1,4 +1,4 @@
-#GenAI Shortcuts: One-Tap Image & Video Magic
+# GenAI Shortcuts: One-Tap Image & Video Magic
 
 *A detour via shortcuts to better Apple Intelligence GenAI tools*
 
@@ -29,7 +29,7 @@ Instead of juggling between apps or web interfaces, these shortcuts integrate se
 - Then: Generates a realistic video prediction of "what happens next"
 - Perfect for breathing life into vintage family photos
 
-![Share Menu Integration](docs/share_menue.jpg)
+<img src="docs/share_menue.jpg" alt="Share Menu Integration" width="300"/>
 
 ## Quick Start
 

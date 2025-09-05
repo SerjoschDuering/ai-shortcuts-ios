@@ -8,28 +8,61 @@ Transform photos into videos or edit them with AI all with just one tap from you
 
 ## What This Does
 
-Instead of juggling between apps or web interfaces, these shortcuts integrate seamlessly into your iPhone's native workflow. Select any photo, hit share, choose your AI workflow, and watch the magic happen results automatically save to your Photos library.
+Instead of juggling between apps or web interfaces, these shortcuts integrate seamlessly into your iPhone's native workflow. Select any photo, hit share, choose your AI workflow, and watch the magic happen — results automatically save to your Photos library.
 
-![Three Workflows](docs/examples.jpg)
-
-### Three Workflows Included
-
-**Nano-Banana Image Generation**
-- Edit photos with sketches, annotations, or text prompts
-- Uses Google's breakthrough image generation model
-- Perfect for creative photo manipulation and artistic edits
-
-**Seedance Pro Video Generation** 
-- Turn still photos into dynamic 5 second videos
-- Bring old memories to life with realistic motion
-- Create hilarious shorts
-
-**Moving Memories (Two-Step Magic)**
-- First: Restores and enhances your photo using Nano-Banana (with a predefined prompt)
-- Then: Generates a realistic video prediction of "what happens next"
-- Perfect for breathing life into vintage family photos
-
-<img src="docs/share_menue.jpg" alt="Share Menu Integration" width="300"/>
+<table>
+  <tr>
+    <td>
+      <strong>Bananas</strong><br/>
+      Edit photos with sketches, annotations, or prompts.
+      <ul>
+        <li>Understands arrows, circles, and text notes</li>
+        <li>Natural-language prompt support</li>
+        <li>Great for creative edits and quick mockups</li>
+      </ul>
+    </td>
+    <td><img src="docs/srt_banana.gif" alt="Bananas demo" width="360"/></td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Banana-del_</strong><br/>
+      Delete highlighted/annotated objects. Gaps are smartly inpainted.
+      <ul>
+        <li>Mark unwanted objects with iOS markup tools</li>
+        <li>One tap removal with realistic background fill</li>
+        <li>Perfect for cleanups and distractions</li>
+      </ul>
+    </td>
+    <td><img src="docs/srt_del.gif" alt="Banana-del_ object removal demo" width="360"/></td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Moving Memories</strong><br/>
+      Restore an old photo, then generate a realistic 5s motion clip.
+      <ul>
+        <li>Step 1: photo restoration and enhancement</li>
+        <li>Step 2: predictive motion video (about 5s)</li>
+        <li>Ideal for vintage family photos</li>
+      </ul>
+    </td>
+    <td><img src="docs/srt_memory.gif" alt="Moving Memories demo" width="360"/></td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Make It Move</strong><br/>
+      Turn a still photo into a short dynamic video.
+      <ul>
+        <li>Natural camera and subject motion</li>
+        <li>About 5 seconds per clip</li>
+        <li>Great for social posts and fun reveals</li>
+      </ul>
+    </td>
+    <td><img src="docs/srt_move.gif" alt="Make It Move demo" width="360"/></td>
+  </tr>
+  <!-- Different source GIF sizes are harmonized via consistent width -->
+  <!-- Add more rows anytime; the layout will remain balanced. -->
+  
+</table>
 
 ## Quick Start
 
@@ -48,6 +81,7 @@ Instead of juggling between apps or web interfaces, these shortcuts integrate se
 2. Tap the share button
 3. Choose your desired AI workflow:
    - **Bananas** - Image editing with annotations
+   - **Banana-del_** - Remove highlighted objects (smart inpainting)
    - **Make It Move** - Still to video conversion  
    - **Moving Memories** - Photo restoration + video generation
 4. Follow the prompts and wait for AI magic (
